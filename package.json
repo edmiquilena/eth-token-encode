@@ -1,0 +1,38 @@
+{
+  "name": "@edmiquilena/eth-token-encode",
+  "version": "1.0.0",
+  "description": "Encode easily the data value of Ethereum (Also works with Binance Smartchain, and any ethereum fork) for token transactions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edmiquilena/eth-token-encode.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "Ethereum",
+    "Binance Smart Chain",
+    "blockchain",
+    "eth",
+    "Token",
+    "encode"
+  ],
+  "author": "Eduardo Miquilena",
+
+  "license": "ISC",
+  "dependencies": {
+    "isstrhex": "^1.0.5",
+    "locutus": "^2.0.14"
+  },
+  "bugs": {
+    "url": "https://github.com/edmiquilena/eth-token-encode/issues"
+  },
+  "homepage": "https://github.com/edmiquilena/eth-token-encode#readme",
+  "devDependencies": {
+    "mocha": "^8.2.0"
+  }
+}
